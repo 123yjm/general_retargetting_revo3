@@ -1,0 +1,21 @@
+name: revo3_right
+display_name: "BrainCo Revo 3"
+split: zeroshot
+urdf: ../assets/revo3_system/urdf/revo3_right.urdf
+palm_link: right_hand_base_link
+fingers:
+  thumb: right_thumb_DIP_link
+  index: right_index_DIP_link
+  middle: right_middle_DIP_link
+  ring: right_ring_DIP_link
+  little: right_little_DIP_link
+tip_offsets:
+  thumb: [-0.0053, 0.0342, -0.0006]
+  index: [-0.0042, 0.0022, 0.0301]
+  middle: [-0.0042, 0.0008, 0.0302]
+  ring: [-0.0042, -0.0006, 0.0302]
+  little: [-0.0043, -0.0020, 0.0301]
+actuator:
+  kp: 12.0
+  kd: 0.4
+  forcerange: 4.0
