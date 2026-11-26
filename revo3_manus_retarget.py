@@ -28,7 +28,7 @@ from typing import Optional
 import xml.etree.ElementTree as ET
 
 BASE_DIR = Path(__file__).resolve().parent
-DEFAULT_CKPT = BASE_DIR / "models" / "stage2_best.pt"
+DEFAULT_CKPT = BASE_DIR / "models" / "best.pt"
 DEFAULT_HAND_YAML = BASE_DIR / "config" / "revo3_right.yaml"
 VENDOR_DIR = BASE_DIR / "vendor"
 
